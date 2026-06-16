@@ -237,7 +237,7 @@ def analyze_logs(entries: List[Dict[str, Any]], log_type: str) -> Dict[str, Any]
         f"Action:{e['action']} "
         f"Bytes:{e['bytes']} "
         f"Msg:{e.get('message', '')}"
-        for e in entries[:40]
+        for e in entries[:60]
     ])
 
     prompt = f"""
