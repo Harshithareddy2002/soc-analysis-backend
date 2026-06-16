@@ -12,7 +12,7 @@ FastAPI service that accepts security log files, parses multiple formats, detect
 ### Prerequisites
 
 - Python 3.12+
-- [Gemini API key](https://aistudio.google.com/apikey)
+- Gemini API key
 
 ```bash
 python3 -m venv venv
