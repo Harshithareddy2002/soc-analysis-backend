@@ -56,7 +56,7 @@ Here are sample lines from an unknown log format:
 
 Parse ALL these lines into structured entries:
 
-{content[:2000]}
+{content[:25000]}
 """
     try:
         response = client.models.generate_content(
