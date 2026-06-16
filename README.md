@@ -151,6 +151,7 @@ app/
 - Gemini analyzes the first 20 entries for cost/latency balance; the full file is still parsed
 - Rule-based detection ensures analysis runs when Gemini is unavailable
 - IPv4 validation prevents non-IP tokens from appearing as source IPs
+- There is a sample file (sample.log) available for testing
 
 ---
 
