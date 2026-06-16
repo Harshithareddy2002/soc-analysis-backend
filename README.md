@@ -148,7 +148,7 @@ app/
 | `app/analyzer.py` | Gemini prompt, rule logic, enrichment fields |
 
 - Stateless API — no database; frontend stores results after upload
-- Gemini analyzes the first 20 entries for cost/latency balance - I limited the AI context window to 20 events. The architecture is intentionally modular, so the next step would be to use the existing rule-based detection layer as a pre-filter and only send high-risk events to the LLM - but the full file is still parsed
+- Gemini analyzes the first 20 entries for cost/latency balance - I limited the AI context window to 20 events as I was using the Gemini free tier. The architecture is intentionally modular, so the next step would be to use the existing rule-based detection layer as a pre-filter and only send high-risk events to the LLM - but the full file is still parsed
 - Rule-based detection ensures analysis runs when Gemini is unavailable
 - IPv4 validation prevents non-IP tokens from appearing as source IPs
 - There is a sample file (sample.log) available for testing
