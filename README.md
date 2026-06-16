@@ -1,6 +1,9 @@
 # SOC Log Analysis — Backend
 
-FastAPI service that accepts security log files, parses multiple formats, detects anomalies with Gemini (and rule-based fallback), and returns enriched analysis JSON for the [frontend dashboard](../frontend).
+FastAPI service that accepts security log files, parses multiple formats, detects anomalies with Gemini (and rule-based fallback), and returns enriched analysis JSON for the frontend dashboard.
+
+**Repo:** [soc-analysis-backend](https://github.com/Harshithareddy2002/soc-analysis-backend)  
+**Frontend:** [soc-analysis-frontend](https://github.com/Harshithareddy2002/soc-analysis-frontend)
 
 ---
 
